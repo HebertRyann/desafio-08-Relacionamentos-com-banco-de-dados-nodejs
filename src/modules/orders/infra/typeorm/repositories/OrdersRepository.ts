@@ -27,7 +27,7 @@ class OrdersRepository implements IOrdersRepository {
       relations: ['order_products', 'customer'],
     });
 
-    return order;
+    return order
   }
 }
 
